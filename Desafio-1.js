@@ -8,10 +8,10 @@ Você terá três variáveis. Sendo elas:
 Imprima no console o valor que será gasto para realizar esta viagem.
 */
 const precoCombustivel = 5.79;
-const kmPorLitros = 12;
+const LitrosPorKm = 12;
 const distanciaEmKm = 1580;
 
-let litrosConsumidos = distanciaEmKm/kmPorLitros;
+let litrosConsumidos = distanciaEmKm/LitrosPorKm;
 let valorGasto = litrosConsumidos*precoCombustivel;
 
 console.log("O valor que será gasto é igual a " + valorGasto.toFixed(2) + " reais.");
