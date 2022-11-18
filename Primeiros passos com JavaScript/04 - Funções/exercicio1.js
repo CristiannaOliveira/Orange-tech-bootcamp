@@ -1,8 +1,8 @@
 function calculoImc(peso, altura) {
-   return peso / Math.pow (altura,2)
-}
+    return peso / Math.pow (altura,2)
+ }
 
-function classificacao (imc) {
+ function classificacao (imc) {
     if(imc < 18.5 ) {
         console.log('Abaixo do Peso');
     } else if (imc >= 18.5 && imc < 25) {
@@ -15,14 +15,14 @@ function classificacao (imc) {
         console.log('Obesidade Grave');
     }
 }
-var peso = 60
-var altura = 1.58
-const imc = calculoImc(peso,altura);
-console.log('O IMC dessa pessoa é ' + imc.toFixed(2));
 
-classificacao(imc)
 
 function main() {
-    console.log('Programa principal');
-    
-}
+    const peso = 60
+    const altura = 1.58
+    const imc = calculoImc(peso,altura);
+    console.log('O IMC dessa pessoa é ' + imc .toFixed(2));
+    classificacao (imc)
+    }
+   
+main()
