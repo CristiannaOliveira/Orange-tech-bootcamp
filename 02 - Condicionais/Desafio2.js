@@ -11,13 +11,13 @@ Imprima no console o valor que será gasto para realizar a viagem. */
 
 const precoEtanol = 4.35;
 const precoGasolina = 5.29;
-const gastoCarroKm = 12;
+const kmPorLitroCarro = 12;
 const distanciaKmViagem = 250;
 
 var carro = 'gasolina'
 if (carro = 'gasolina') {
     console.log('O valor da viagem com o carro a gasolina é ' + 
-    ((distanciaKmViagem/gastoCarroKm)*precoGasolina).toFixed(2)+
+    ((distanciaKmViagem/kmPorLitroCarro)*precoGasolina).toFixed(2)+
     ' reais.');
 }
 carro = 'etanol'
@@ -26,6 +26,6 @@ if (carro != 'etanol') {
     
 } else {
     console.log('O valor da viagem com o carro usando etanol é ' +
-    ((distanciaKmViagem/gastoCarroKm)*precoEtanol).toFixed(2)+
+    ((distanciaKmViagem/kmPorLitroCarro)*precoEtanol).toFixed(2)+
     ' reais.' );
 }
