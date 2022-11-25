@@ -17,5 +17,5 @@ cristianna.altura = 1.58;
 
 console.log(cristianna);
 
-cristianna.descrever ();
+
 
