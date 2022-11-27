@@ -58,7 +58,7 @@ renan.descrever();
 class Profile {
     nome;
     idade;
-    anoDeNascimento
+    anoDeNascimento;
     constructor (nome,idade) {
         this.nome = nome;
         this.idade = idade;
@@ -77,4 +77,29 @@ const catarina = new Profile ('Catarina de Souza', 45);
 alberto.descrever();
 catarina.descrever();
 
+/* Comparação e para usar o ${} tem que usar o acento grave */
 
+class People {
+    nome;
+    idade;
+    constructor (nome,idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+function comparePeople(p1, p2) {
+    if (p1.idade > p2.idade) {
+    console.log(`${p1.nome} é mais velho(a) que ${p2.nome}`);
+    } else if (p2.idade > p1.idade) {
+    console.log(`${p2.nome} é mais velho(a) que ${p1.nome}`);
+    } else {
+    console.log(`${p1.nome} tem a mesma idade que ${p2.nome}`);
+    }
+    
+}
+
+const andreia = new People ('Andréia' , 22);
+const angelica = new People ('Angélica',18);
+
+comparePeople(andreia,angelica);
