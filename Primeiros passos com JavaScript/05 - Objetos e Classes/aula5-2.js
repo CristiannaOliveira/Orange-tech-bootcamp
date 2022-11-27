@@ -52,3 +52,29 @@ console.log(renan);
 vitor.descrever();
 renan.descrever();
 
+/* Classe com constructor (atribuidor da classe)
+*/
+
+class Profile {
+    nome;
+    idade;
+    anoDeNascimento
+    constructor (nome,idade) {
+        this.nome = nome;
+        this.idade = idade;
+        this.anoDeNascimento = 2022 - idade;
+    }
+
+    descrever (){
+        console.log( 'Meu nome é ' + this.nome + ' e minha idade é ' + this.idade + ' nasci em ' + this.anoDeNascimento);
+    }
+}
+    
+
+const alberto = new Profile ('Alberto da Silva', 22);
+const catarina = new Profile ('Catarina de Souza', 45);
+
+alberto.descrever();
+catarina.descrever();
+
+
