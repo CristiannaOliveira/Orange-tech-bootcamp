@@ -27,8 +27,8 @@ pessoa.descrever();
 
 console.log(pessoa['nome']);
 
-/* Ensino de Classe
-obs: não se coloca function
+/* Ensino de Classe(o nome da classe sempre começa com letra maiúscula)
+obs: não se coloca function dentro de classe
 */
 class Pessoa {
     nome;
@@ -52,7 +52,7 @@ console.log(renan);
 vitor.descrever();
 renan.descrever();
 
-/* Classe com constructor (atribuidor da classe)
+/* Classe com constructor (atribuidor da classe), ele é necessário.
 */
 
 class Profile {
@@ -66,7 +66,7 @@ class Profile {
     }
 
     descrever (){
-        console.log( 'Meu nome é ' + this.nome + ' e minha idade é ' + this.idade + ' nasci em ' + this.anoDeNascimento);
+        console.log( 'Meu nome é ' + this.nome + ' e minha idade é ' + this.idade + ' ,nasci em ' + this.anoDeNascimento);
     }
 }
     
