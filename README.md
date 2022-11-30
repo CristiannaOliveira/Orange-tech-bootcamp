@@ -11,4 +11,5 @@ O Codepen dá para escrever o HTML,CSS e JavaScript um do lado do outro.
 [Codepen](https://codepen.io/pen/)  
 [Blog sobre cor CSS](https://kinsta.com/pt/blog/cor-da-fonte-html/)
 [Pokéapi](https://pokeapi.co)
-
+[O que é uma API?](https://aws.amazon.com/pt/what-is/api/)  
+[Protocolo HTTP](https://pt.semrush.com/blog/o-que-e-https/)
