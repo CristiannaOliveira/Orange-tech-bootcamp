@@ -1,0 +1,304 @@
+/* Pokémon oddish */
+
+.pokemon-oddish {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #78C850;
+}
+
+.pokemon-oddish .number {
+    color: #406b2a;
+    text-align: right;
+}
+
+.pokemon-oddish .name {
+    color: white;
+    margin-bottom: 0;
+    font-size: medium;
+}
+
+.pokemon-oddish .detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pokemon-oddish .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon-oddish .detail .types .type {
+    background-color: #406b2a;
+    opacity: .5;
+    color: white;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    border-radius: .5rem;
+}
+
+.pokemon-oddish .detail img {
+    max-width: 100%;
+    height: 120px;
+    width: 50%;
+    align-self: flex-end;
+    
+}
+
+/* Pokémon gloom */
+.pokemon-gloom {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #78C850;
+}
+
+.pokemon-gloom .number {
+    color: #406b2a;
+    text-align: right;
+}
+
+.pokemon-gloom .name {
+    color: white;
+    margin-bottom: 0;
+    font-size: medium;
+}
+
+.pokemon-gloom .detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pokemon-gloom .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon-gloom .detail .types .type {
+    background-color: #406b2a;
+    opacity: .5;
+    color: white;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    border-radius: .5rem;
+}
+
+.pokemon-gloom .detail img {
+    max-width: 100%;
+    height: 120px;
+    width: 50%;
+    align-self: flex-end;
+    
+}
+
+/* Pokémon vileplume */
+
+.pokemon-vileplume {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #78C850;
+}
+
+.pokemon-vileplume .number {
+    color: #406b2a;
+    text-align: right;
+}
+
+.pokemon-vileplume .name {
+    color: white;
+    margin-bottom: 0;
+    font-size: medium;
+}
+
+.pokemon-vileplume .detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pokemon-vileplume .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon-vileplume .detail .types .type {
+    background-color: #406b2a;
+    opacity: .5;
+    color: white;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    border-radius: .5rem;
+}
+
+.pokemon-vileplume .detail img {
+    max-width: 100%;
+    height: 120px;
+    width: 50%;
+    align-self: flex-end;
+    
+}
+
+/* Pokémon bellossom */
+
+.pokemon-bellossom {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #78C850;
+}
+
+.pokemon-bellossom .number {
+    color: #406b2a;
+    text-align: right;
+}
+
+.pokemon-bellossom .name {
+    color: white;
+    margin-bottom: 0;
+    font-size: medium;
+}
+
+.pokemon-bellossom .detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pokemon-bellossom .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon-bellossom .detail .types .type {
+    background-color: #406b2a;
+    opacity: .5;
+    color: white;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    border-radius: .5rem;
+}
+
+.pokemon-bellossom .detail img {
+    max-width: 100%;
+    height: 120px;
+    width: 50%;
+    align-self: flex-end;
+    
+}
+
+/* pokemon azurill */
+
+.pokemon-azurill {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #80cee1;
+}
+
+.pokemon-azurill .number {
+    color: #274360;
+    text-align: right;
+}
+
+.pokemon-azurill .name {
+    color: white;
+    margin-bottom: 0;
+    font-size: medium;
+}
+
+.pokemon-azurill .detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pokemon-azurill .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon-azurill .detail .types .type {
+    background-color: #274360;
+    opacity: .5;
+    color: white;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    border-radius: .5rem;
+}
+
+.pokemon-azurill .detail img {
+    max-width: 100%;
+    height: 120px;
+    width: 50%;
+    align-self: flex-end;
+    
+}
+
+/* pokemon marill */
+
+.pokemon-marill {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #80cee1;
+}
+
+.pokemon-marill .number {
+    color: #274360;
+    text-align: right;
+}
+
+.pokemon-marill .name {
+    color: white;
+    margin-bottom: 0;
+    font-size: medium;
+}
+
+.pokemon-marill .detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pokemon-marill .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon-marill .detail .types .type {
+    background-color: #274360;
+    opacity: .5;
+    color: white;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    border-radius: .5rem;
+}
+
+.pokemon-marill .detail img {
+    max-width: 100%;
+    height: 120px;
+    width: 50%;
+    align-self: flex-end;
+    
+}
