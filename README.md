@@ -4,4 +4,6 @@ Foi feito esse repositório na aula de *Git/GitHub* e vou continuar usando para 
 ## Links Úteis
 [Sintaxe Basica Markdown](markdownguide.org)  
 [DPW - Desenvolvimento para web](https://desenvolvimentoparaweb.com)  
-[DevMedia - Cursos iniciantes gratuitos](https://www.devmedia.com.br/cursos/)
+[DevMedia - Cursos iniciantes gratuitos](https://www.devmedia.com.br/cursos/)  
+[Cdnjs - normalize css](https://cdnjs.com/libraries/normalize)  
+[Google Fonts](https://fonts.google.com)

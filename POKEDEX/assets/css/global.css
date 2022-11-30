@@ -1,0 +1,7 @@
+/* Coloca o asterisco para que todo o texto fique com a fonte
+ Uma boa prática é fazer o css para mobile primeiro do que para a página
+ web, para apenas modificar pequenas coisas. (inspecionar - tamanho de tela
+ - Pixel 5)  */
+* {
+    font-family: 'Roboto', sans-serif;
+}
