@@ -1,0 +1,40 @@
+
+Requisição HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon
+${IP- Endereço}/${path = caminho de identificação do recurso}
+
+IP: https://pokeapi.co
+    http://127.0.0.1:8080 
+
+Path: /api/v2/pokemon
+
+Request Method: GET | POST | PUT | DELETE | PATCH
+
+GET: buscar um recurso
+
+Query string: Descrição de busca
+? - tudo que vem depois do ponto de interrogação é a query string
+Seguindo chave e valor.
+exemplo: https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+
+type e name é chave,e grass e i,valor.
+
+Header, tem a informação sobre o que eu aceito no servidor e o que o outro 
+servidor está trazendo para nós.
+
+Request Headers
+configuração
+
+Request Body - o corpo da nossa requisição 
+(body normalmente é com o post, que adiciona algo na página)
+
+STATUS CODE - O número diz o que aconteceu com nossa requisição.
+ex: STATUS CODE: 200
+
+Response Headers
+configuração
+
+Response Body
+
+
