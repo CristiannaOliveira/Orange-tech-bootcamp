@@ -13,4 +13,5 @@ O Codepen dá para escrever o HTML,CSS e JavaScript um do lado do outro.
 [Pokéapi](https://pokeapi.co)
 [O que é uma API?](https://aws.amazon.com/pt/what-is/api/)  
 [Protocolo HTTP](https://pt.semrush.com/blog/o-que-e-https/)  
-[Sobre Grid - CSS](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
+[Sobre Grid - CSS](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)  
+[JSON](https://www.devmedia.com.br/o-que-e-json/23166)
